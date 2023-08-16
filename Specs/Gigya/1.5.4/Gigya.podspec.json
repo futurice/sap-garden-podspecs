@@ -1,0 +1,29 @@
+{
+  "name": "Gigya",
+  "version": "1.5.4",
+  "license": "Apache 2.0",
+  "homepage": "https://developers.gigya.com/display/GD/Swift+SDK",
+  "authors": "Gigya SAP",
+  "summary": "The Swift SDK provides an interface for the Gigya API.\nThe library makes it simple to integrate Gigya's service in\nyour Swift application\nNote: The source is linked to a forked version of https://github.com/SAP/gigya-swift-sdk.git",
+  "source": {
+    "git": "https://github.com/futurice/gigya-swift-sdk.git",
+    "branch": "fix/reflection-with-custom-module-name-v1.5.4"
+  },
+  "module_name": "Gigya",
+  "swift_versions": "5.3",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": [
+    "GigyaSwift/*/*.swift",
+    "GigyaSwift/*/*/*.swift",
+    "GigyaSwift/*/*/*/*.swift",
+    "GigyaSwift/*/*/*/*/*.swift"
+  ],
+  "frameworks": "SystemConfiguration",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "swift_version": "5.3"
+}
